@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <!-- 顶部 -->
+    <!-- 顶部 -->  
     <mt-header fixed title="fixed top"></mt-header>
     <!-- 中部 -->
     <!-- 底部 -->
