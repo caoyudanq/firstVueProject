@@ -2,6 +2,7 @@
   <div class="top">
     <!-- 顶部 -->  
     <mt-header fixed title="fixed top"></mt-header>
+	    <h1>这是 App 组件</h1>
     <!-- 中部 -->
     <router-view></router-view>
     <!-- 底部 -->
@@ -23,7 +24,6 @@
 				<span class="mui-tab-label">搜索</span>
 			</router-link>
 		</nav>
-    <h1>这是 App 组件</h1>
   </div>
 </template>
 
