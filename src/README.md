@@ -11,3 +11,14 @@
 路由激活对应的组件时可通过 `linkActiveClass`覆盖默认组件样式
 
 ## 点击tabbar中的组件链接，展示对应组件
+
+## 制作首页轮播图
+
+## 加载首页轮播图数据
+
+1. 获取数据，使用vue-resource npm i vue-resource -S
+2. 使用 vue-resource 的this.$http.get 获取数据
+3. 获取到的数据保存到data中
+4. 使用 v-for 循环将数据渲染到每个 iten 项
+
+## 改造九宫格区域的样式

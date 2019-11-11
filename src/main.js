@@ -6,9 +6,11 @@ Vue.use(VueRouter)
     // // 2.2 安装 vue-resource
     // Vue.use(VueResource)
 import router from './router.js'
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
 
 
-import { Header, Swipe, SwipeItem } from 'mint-ui'
+import { Header, Swipe, SwipeItem} from 'mint-ui'
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
